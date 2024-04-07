@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            font-size: 27px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1><u>Job Application </u></h1>
+        <section>
+            <label for="name">Enter your Name</label>
+            <input type="name" id="name"placeholder="Write your name">
+            <br/>
+            <br/>
+            <label for="email">Enter your Email</label>
+            <input type="email" placeholder="Ex-xyz@gmail.com" id="email">
+            <br/>
+            <br>
+            <label for="mobile">Enter your mobile No.</label>
+            <input type="text" id="mobile" placeholder="Enter mobile no">
+        </section>
+        <br>
+        <div>
+        <label for="password">Password</label>
+        <input type="text" id="password" placeholder="write your password">
+    </div>
+    <br>
+    <span>
+        <label for="Gender">Gender: </label>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male"value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="frmale" value="female">
+    </span>
+    <br>
+    <br>
+    <label for="date">Date of Birth</label>
+    <input type="date" id="date">
+    <br><br>
+    <label for="Occupation">Select your occupation</label>
+    <select name="occupation" id="occupation"> 
+        <option value="student">Student</option>
+        <option value="Farmer">Farmer</option>
+        <option value="jober">Jober</option>
+    </select>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Select your Hobbies</legend>
+        <label for="playing">Cricket</label>
+        <input type="checkbox" id="playing">
+        <label for="reading">Reading News paper</label>
+        <input type="checkbox" id="reading">
+        <label for="watching">Watching movie</label>
+        <input type="checkbox" id="watching">
+        <label for="mobile">Using mobile</label>
+        <input type="checkbox" id="mobile">
+    </fieldset>
+    <br>
+    <!--<label for="comments">Write your comments</label>
+    <br>-->
+    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="write your comments...."></textarea>
+    <!--<label for="submit"> Submit</label>
+    <input type="submit" id="submit">-->
+    <button>Submit</button>
+    </form>
+</body>
+</html>
